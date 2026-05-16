@@ -1,3 +1,14 @@
+---
+name: lidarr
+description: Manage Lidarr (music) via its API. List, search, and monitor artists and albums.
+version: 1.0.0
+metadata:
+  openclaw:
+    requires:
+      bins: ["python3"]
+    user-invocable: true
+---
+
 # Lidarr CLI Skill
 
 A powerful command-line interface for managing a Lidarr server, designed for both human use and AI agent integration.
